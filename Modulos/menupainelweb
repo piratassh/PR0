@@ -20,7 +20,7 @@
             delhost
             ;;
             3 | 03)
-            bash <(wget -qO- https://raw.githubusercontent.com/piratassh/PR0/main/Modulos/pweb)
+            bash <(wget -qO- https://raw.githubusercontent.com/piratassh/new2022/main/install/pweb)
             ;;
             4 | 04)
             gltunnel

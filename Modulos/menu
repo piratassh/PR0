@@ -497,7 +497,7 @@ case "$x" in
    ;;
    p)   
    clear
-   bash <(wget -qO- https://raw.githubusercontent.com/piratassh/new2022/master/Painel-V2022/pweb)
+   bash <(wget -qO- https://raw.githubusercontent.com/piratassh/new2022/main/install/pweb)
    ;;
    c)
    gltunnel

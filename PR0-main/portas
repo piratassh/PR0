@@ -1,0 +1,9 @@
+#!/bin/bash
+
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 10000 --max-connections-for-client 5 --client-socket-sndbuf 10000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 10000 --max-connections-for-client 5 --client-socket-sndbuf 10000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7400 --max-clients 10000 --max-connections-for-client 5 --client-socket-sndbuf 10000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7500 --max-clients 10000 --max-connections-for-client 5 --client-socket-sndbuf 10000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7600 --max-clients 10000 --max-connections-for-client 5 --client-socket-sndbuf 10000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7800 --max-clients 10000 --max-connections-for-client 5 --client-socket-sndbuf 10000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7900 --max-clients 10000 --max-connections-for-client 5 --client-socket-sndbuf 10000

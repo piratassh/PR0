@@ -486,11 +486,12 @@ case "$x" in
    ;;
    23)
    clear
-   menupainelweb
+   bash <(wget -qO- https://raw.githubusercontent.com/piratassh/PR0/main/Modulos/menupainelweb)
    ;;
    24)
    clear
    menubots
+   bash <(wget -qO- https://raw.githubusercontent.com/piratassh/PR0/main/Modulos/menubots)
    ;;
    25)
    clear

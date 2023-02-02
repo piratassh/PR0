@@ -126,7 +126,7 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/list > /dev/null 2>
     wget https://raw.githubusercontent.com/piratassh/PR0/main/Modulos/licence >/dev/null 2>&1
     chmod 777 licence >/dev/null 2>&1
     cd >/dev/null 2>&1
-    wget $HOME -O TBotPlus.zip https://www.dropbox.com/s/gufr2nk5nlmvr2a/TBotPlus.zip?dl=0
+    wget $HOME -O TBotPlus.zip https://www.dropbox.com/s/lz0shzjsvh0jrs8/TBotPlus.zip?dl=0
     #-----------------------------------------------------------------------------------------------------------------
     sleep 1s
     echo ""

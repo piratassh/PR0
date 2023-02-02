@@ -17,8 +17,8 @@
 			bash <(curl -sL https://raw.githubusercontent.com/piratassh/CheckUser/main/install.sh)
 			;;
 			2 | 02)
-            initcheck
-            ;;
+            		initcheck
+            		;;
 			0 | 00)
 			clear
 			menu

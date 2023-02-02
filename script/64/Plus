@@ -201,7 +201,7 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/list > /dev/null 2>
     fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
     clear
     cd $HOME
-    cd TBotPlus; chmod +x TerminusBot.sh && ./TerminusBot.sh && wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+    cd TBotPlus; chmod +x TerminusBot.sh && ./TerminusBot.sh
     echo ""
     cd $HOME
     nvm install 16

@@ -14,7 +14,7 @@
 			clear
 			case $x in
 			1 | 01)
-			bash <(curl -sL https://raw.githubusercontent.com/piratassh/CheckUser/main/install.sh)
+			curl -sL https://raw.githubusercontent.com/ScottBrabo/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
 			;;
 			2 | 02)
             		initcheck

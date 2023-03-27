@@ -14,7 +14,7 @@
 			clear
 			case $x in
 			1 | 01)
-			curl -sL https://raw.githubusercontent.com/ScottBrabo/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
+			apt-get update -y; apt-get upgrade -y; wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ScottBrabo/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
 			;;
 			2 | 02)
             		initcheck

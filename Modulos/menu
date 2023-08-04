@@ -305,7 +305,7 @@ case "$x" in
    ;;
    32)
    clear
-   rm -rf /root/*  &&  wget https://raw.githubusercontent.com/PhoenixxZ2023/websocket/main/websocket.sh && chmod +x websocket.sh && ./websocket.sh
+   apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/websocket/main/websocket.sh && chmod +x websocket.sh && ./websocket.sh)
    ;;
    0|00)
    echo -e "\033[1;31mSaindo...\033[0m"
